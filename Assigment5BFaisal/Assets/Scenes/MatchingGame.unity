@@ -1772,6 +1772,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 976219609311111969, guid: c649e8050cfd5bf4e813d83e4936c6c1,
+        type: 3}
+      propertyPath: m_TabSize
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 3981348105646723319, guid: c649e8050cfd5bf4e813d83e4936c6c1,
         type: 3}
       propertyPath: m_LocalPosition.x

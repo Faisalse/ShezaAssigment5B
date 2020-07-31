@@ -91,9 +91,9 @@ public class ControllerMechanism : MonoBehaviour
     public void intializePosition()
     {
         System.Random r = new System.Random();
-     for(int i = 20; i < 230; i = i + 40 )
+     for(int i = 20; i < 230; i = i + 20 )
         {
-            for (int j = 20; j < 230; j = j + 30)
+            for (int j = 20; j < 230; j = j + 20)
             {
                 vectorPosition.Add(new Vector3(i, 3, j));
             }             
@@ -189,7 +189,7 @@ public class ControllerMechanism : MonoBehaviour
                 string b = "(" + a + ")";
                 randomStringList.Add(b);
             }
-            else if (i < 10)
+            else if (i < 25)
             {
                 string a = GenerateString(10, r);
                 string b = "()"+a+ "()";
